@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <products>
+            <shipping_estimate>
+                <debug>1</debug>
+            </shipping_estimate>
+             <shipping_information>
+                <show_on_product_detail_page>1</show_on_product_detail_page>
+                <show_on_checkout_page>1</show_on_checkout_page>
+            </shipping_information>
+        </products>
+    </default>
+</config>
